@@ -16,7 +16,7 @@ setup(
     author_email='sk.companymail@gmail.com',
     license='MIT',
     classifiers=[
-        'License:: OSI Approved :: MIT License',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.10',
         'Operating System :: OS Independent'
     ],
