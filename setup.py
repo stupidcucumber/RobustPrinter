@@ -4,7 +4,7 @@ with open('README.md') as desc_f:
     long_description = desc_f.read()
 
 setup(
-    name='robustprint',
+    name='robustprinter',
     version='0.0.10',
     description='Package for easy printing and logging to the terminal/console.',
     package_dir={'': 'main'},
