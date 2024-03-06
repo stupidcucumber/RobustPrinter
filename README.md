@@ -46,7 +46,7 @@ if __name__ == '__main__':
     print('Start test.')
     max_steps = 10
 
-    rformatter = DefaultFormatter(max_steps=max_steps, max_columns=2)
+    rformatter = DefaultFormatter(max_columns=2)
     rprinter = Printer(formatter=rformatter)
     rprinter.start()
 
@@ -55,6 +55,7 @@ if __name__ == '__main__':
         data['epoch'] = epoch
         for step in range(max_steps):
             data['step'] = step + 1
+            data['max_steps'] = 10
             data['partition'] = 'train'
             data['metrics'] = generate_random_metrics(metrics=metrics_list)
 
